@@ -1,49 +1,35 @@
-# IPL-data-set-analytics
+# IPL Data Set Analytics
 
-## Aim
-This repository will collect data in csv format and process it to display bar plots using matplotlib.
-## 1.How to get the data
-The datasets can downloaded from the repo.
+## Description
 
+**IPL Data Set Analytics** is a repository that collects data in **CSV** format and processes it to display bar plots using **Matplotlib.** The repository includes three datasets: **matches.csv, deliveries.csv, and allumpire.csv**. These datasets contain information about IPL matches, deliveries, and umpires.
 
-The dataset names are
+The aim of this project is to perform various data analysis tasks on the IPL datasets and generate visualizations in the form of bar plots using Matplotlib.
 
+## Requirements
 
-**1.matches.csv**
+To run the IPL Data Set Analytics project, ensure that you have the following requirements:
 
-**2.deliveries.csv**
+- Python 3 installed on your system.
+- The required dependencies installed. You can install them by running the following command:
 
-**3.allumpire.csv**
-## 2.Requirements
-All the requirements and dependencies store in requirements.txt and install all requirements and dependencies run
+`pip3 install -r requirements.txt`
 
 
-```pip3 install -r requirements.txt```
+## Usage
 
-## 3.Run Project
-**1. Total runs scored by team**
+The IPL Data Set Analytics project provides several functionalities. You can use the following files to perform specific analysis tasks:
 
-* Click the file name
-``` totalruns.py```
+1. `totalruns.py`: This file calculates and displays the total runs scored by each team in the IPL.
 
-**2. Top batsman for Royal Challengers Bangalore**
+2. `topbatsman.py`: This file identifies and displays the top batsman for the Royal Challengers Bangalore team.
 
-* Click the file name
-``` topbatsman.py```
+3. `foreign.py`: This file performs an analysis on foreign umpires in the IPL.
 
-**3. Foreign umpire analysis**
+4. `stackedchart.py`: This file generates a stacked chart displaying the number of matches played by each team in each season.
 
-* Click the file name
-``` foreign.py```
+To run the project, simply execute the desired file using Python 3. For example:
 
-**4. Stacked chart of matches played by team by season**
+`python3 totalruns.py` 
 
-* Click the file name
-``` stackedchart.py```
-
-
-
-
-
-
-
+Make sure you have the required datasets (`matches.csv`, `deliveries.csv`, and `allumpire.csv`) in the same directory as the Python files.
